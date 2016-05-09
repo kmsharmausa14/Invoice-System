@@ -1,0 +1,10 @@
+C:\InvoiceSystem\InoviceSystem\BO\bin\Debug\BO.dll
+C:\InvoiceSystem\InoviceSystem\BO\bin\Debug\BO.pdb
+C:\InvoiceSystem\InoviceSystem\BO\obj\Debug\ResolveAssemblyReference.cache
+C:\InvoiceSystem\InoviceSystem\BO\obj\Debug\BO.dll
+C:\InvoiceSystem\InoviceSystem\BO\obj\Debug\BO.pdb
+D:\Projects\InvoiceSystem\InoviceSystem\BO\bin\Debug\BO.dll
+D:\Projects\InvoiceSystem\InoviceSystem\BO\bin\Debug\BO.pdb
+D:\Projects\InvoiceSystem\InoviceSystem\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+D:\Projects\InvoiceSystem\InoviceSystem\BO\obj\Debug\BO.dll
+D:\Projects\InvoiceSystem\InoviceSystem\BO\obj\Debug\BO.pdb

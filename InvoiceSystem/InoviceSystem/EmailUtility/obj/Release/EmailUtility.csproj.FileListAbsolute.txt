@@ -1,0 +1,11 @@
+C:\InvoiceSystem\InoviceSystem\EmailUtility\bin\Release\EmailUtility.dll
+C:\InvoiceSystem\InoviceSystem\EmailUtility\bin\Release\EmailUtility.pdb
+C:\InvoiceSystem\InoviceSystem\EmailUtility\bin\Release\BLL.dll
+C:\InvoiceSystem\InoviceSystem\EmailUtility\bin\Release\BO.dll
+C:\InvoiceSystem\InoviceSystem\EmailUtility\bin\Release\DAL.dll
+C:\InvoiceSystem\InoviceSystem\EmailUtility\bin\Release\BLL.pdb
+C:\InvoiceSystem\InoviceSystem\EmailUtility\bin\Release\BO.pdb
+C:\InvoiceSystem\InoviceSystem\EmailUtility\bin\Release\DAL.pdb
+C:\InvoiceSystem\InoviceSystem\EmailUtility\obj\Release\ResolveAssemblyReference.cache
+C:\InvoiceSystem\InoviceSystem\EmailUtility\obj\Release\EmailUtility.dll
+C:\InvoiceSystem\InoviceSystem\EmailUtility\obj\Release\EmailUtility.pdb

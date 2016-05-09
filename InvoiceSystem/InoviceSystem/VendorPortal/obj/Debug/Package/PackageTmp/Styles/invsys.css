@@ -1,0 +1,99 @@
+﻿.login
+{
+    font-family: 'Bauhaus 93';
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #0066CC;
+}
+
+#txtUserID
+{
+    width: 251px;
+}
+#txtPassword
+{
+}
+#BtnLogin
+{
+    width: 91px;
+}
+
+.logintable
+{
+    width: 100%;
+    border: 0;
+}
+
+.normalheader
+{
+    font-family: Verdana;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.loginlabletext
+{
+    font-family: Verdana;
+    font-size: 12px;
+}
+.mainfooter
+{
+    font-size: x-small;
+    background-color: #00B6F2;
+    font-family: Arial;
+    color:#FFFFFF;
+    width: 100%;
+}
+.errormsg
+{
+    color: Red;
+    font-family: Verdana, Arial, Calibri;
+    font-size: 11px;
+}
+
+ .textbox
+ { 
+    border-right: 1px solid #B4B4B4;
+    border-top: 1px solid #B4B4B4;
+    border-bottom: 1px solid #B4B4B4;
+    border-left: 4px solid #B4B4B4;
+    font-size:12px;
+    font-family:Verdana;
+    margin-left: 0px;
+}
+
+.Invallheader
+{
+font-family: Verdana;
+font-weight: bold;
+font-size: 20PX;
+color: #006666;
+width: 82%; 
+}
+
+.InvallSubheaders
+{
+font-family: Verdana; 
+font-size: medium; 
+font-style: normal;
+color: #FFFFFF; 
+background-color: #5D5D5D;    
+}
+
+ .modalBackground
+ {
+     background-color: Gray;
+     filter: alpha(opacity=80);
+     opacity: 0.8;
+     z-index: 10000;
+ }
+  
+  .GridText
+  {
+   font-family: Verdana; 
+font-size: Small; 
+font-style: normal;
+color: #FFFFFF; 
+background-color: #FFFFFF;      
+      }  
+      

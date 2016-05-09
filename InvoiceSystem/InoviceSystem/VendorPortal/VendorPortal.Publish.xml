@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\VendorPublish" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Images/wrapper_top_bg.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/invoice1.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/draft.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/syntel logo.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Styles/Site.css" publishTime="02/24/2014 14:32:21" />
+    <file relUrl="bin/DAL.dll" publishTime="02/28/2014 18:07:44" />
+    <file relUrl="Web.config" publishTime="02/28/2014 18:08:17" />
+    <file relUrl="About.aspx" publishTime="02/24/2014 14:32:18" />
+    <file relUrl="Images/vendor-portal.png" publishTime="02/24/2014 14:32:21" />
+    <file relUrl="Images/Lookup.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Reports.aspx" publishTime="02/24/2014 14:32:19" />
+    <file relUrl="Global.asax" publishTime="02/24/2014 14:32:19" />
+    <file relUrl="Images/green_bg.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/banner_bg.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Library/AjaxMin.dll" publishTime="02/24/2014 14:32:21" />
+    <file relUrl="App_Data/XMLFile1.xml" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/computer-and-money.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="ApproverScreen.aspx" publishTime="02/24/2014 14:32:18" />
+    <file relUrl="Account/Register.aspx" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="bin/BLL.dll" publishTime="02/28/2014 18:07:47" />
+    <file relUrl="Approver_WrkQue.aspx" publishTime="02/24/2014 14:32:18" />
+    <file relUrl="Images/rightside.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="bin/AjaxMin.dll" publishTime="02/24/2014 14:32:21" />
+    <file relUrl="Images/below.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="App_Data/addd.xml" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="02/24/2014 14:32:21" />
+    <file relUrl="CreateInvoice.aspx" publishTime="02/28/2014 18:00:21" />
+    <file relUrl="Images/logosyntel.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="02/24/2014 14:32:21" />
+    <file relUrl="Images/workqueue.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="bin/BO.dll" publishTime="02/28/2014 18:07:46" />
+    <file relUrl="Images/invoice1.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="bin/EmailUtility.dll" publishTime="02/28/2014 18:07:48" />
+    <file relUrl="Images/approve.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Home.aspx" publishTime="02/25/2014 19:14:35" />
+    <file relUrl="Images/invoice2.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="02/24/2014 14:32:21" />
+    <file relUrl="Admin.aspx" publishTime="02/27/2014 16:01:23" />
+    <file relUrl="Site.Master" publishTime="02/26/2014 12:59:40" />
+    <file relUrl="Images/imagesCALYT9HU.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Library/AjaxControlToolkit.dll" publishTime="02/24/2014 14:32:21" />
+    <file relUrl="Styles/invsys.css" publishTime="02/24/2014 14:32:21" />
+    <file relUrl="Images/create.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/loginimage.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/leftside.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Account/Web.config" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="LoginPage.aspx" publishTime="02/26/2014 15:50:57" />
+    <file relUrl="Images/status.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/imagesCA4UGSKO.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Listdr.aspx" publishTime="02/24/2014 14:32:19" />
+    <file relUrl="Images/dynamic_reports.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/imagesCAUASN29.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="InvStatus.aspx" publishTime="02/24/2014 14:32:19" />
+    <file relUrl="Images/imagesCACO4M0K.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="bin/VendorPortal.dll" publishTime="02/28/2014 18:07:49" />
+    <file relUrl="Images/mid.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/wrapper_to_bg.png" publishTime="02/24/2014 14:32:21" />
+    <file relUrl="Images/homepageimage.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Account/Login.aspx" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/invoice-automation.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="02/24/2014 14:32:19" />
+    <file relUrl="Images/images5.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/logo.jpg" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/nations.gif" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="Images/footer.png" publishTime="02/24/2014 14:32:20" />
+    <file relUrl="bin/AjaxControlToolkit.dll" publishTime="02/24/2014 14:32:21" />
+  </publishProfile>
+</publishData>

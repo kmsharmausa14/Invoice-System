@@ -1,0 +1,5 @@
+C:\InvoiceSystem\InoviceSystem\BO\bin\Release\BO.dll
+C:\InvoiceSystem\InoviceSystem\BO\bin\Release\BO.pdb
+C:\InvoiceSystem\InoviceSystem\BO\obj\Release\ResolveAssemblyReference.cache
+C:\InvoiceSystem\InoviceSystem\BO\obj\Release\BO.dll
+C:\InvoiceSystem\InoviceSystem\BO\obj\Release\BO.pdb

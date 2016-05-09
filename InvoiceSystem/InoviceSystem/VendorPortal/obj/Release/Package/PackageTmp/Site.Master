@@ -1,0 +1,213 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="VendorPortal.SiteMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajax" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+//        jQuery.fn.ForAlphanumericNumericOnly =
+//            function () {
+//                //                debugger;
+//                return this.each(function () {
+//                    $(this).keypress(function (e) {
+
+//                        var regex = new RegExp("^[a-zA-Z0-9]+$");
+
+//                        // var unregex = new RegExp("^[/.,<>!@#$%^&*()_+={}[]\|?]");
+//                        var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+
+//                        if (regex.test(str) || e.keyCode == 46 || e.keyCode == 8 || e.keyCode == 9) {
+//                            return true;
+//                        }
+//                        else {
+//                            e.preventDefault();
+//                            return false;
+//                        }
+//                    });
+//                });
+
+        //            };
+//  .aplha
+//        {
+//        }
+
+//        $('.aplha').ForAlphanumericNumericOnly();
+    </script>
+    <style type="text/css">
+        .modalPopupm
+        {
+            background-color: #FFFFFF;
+            border-width: 3px;
+            border-style: solid;
+            border-color: Gray;
+            padding-top: 10px;
+            padding-left: 10px;
+            font-family: Verdana;
+            width: 500px;
+            height: 300px;
+        }
+      
+        .modalBackgroundm
+        {
+            background-color: ThreeDShadow;
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+            z-index: 10000;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server" align="center">
+    <ajax:ToolkitScriptManager ID="ScriptManager1" runat="server">
+    </ajax:ToolkitScriptManager>
+    <table width="1200px" style="height: 802px" cellspacing="0" cellpadding="0" border="0"
+        align="center">
+        <tr style="height: 90%; width: 100%">
+            <td style="height: 100%; width: 100%" align="center">
+                <table style="height: 60%; width: 100%" cellspacing="0" align="center" cellpadding="0">
+                    <tr style="height: 15%; width: 80%; border: 10px solid #00B6F2" align="center">
+                        <td style="border-style: solid none solid solid; border-width: 15px 5px 5px 15px;
+                            border-color: #00B6F2; height: 15%; width: 20%;" align="left">
+                            <img alt="syntel" src="Images/syntel logo.png" runat="server" />
+                        </td>
+                        <td style="border-style: solid solid solid none; border-width: 15px 15px 5px 10px;
+                            border-color: #00B6F2; height: 15%; width: 80%;" align="left">
+                            <font style="text-transform: capitalize; font-size: 40px; font-weight: bold; color: #00B6F2;
+                                font-family: Verdana;">Vendor Portal</font>
+                        </td>
+                    </tr>
+                    <tr style="height: 80%; width: 100%" align="center">
+                        <td style="height: 80%; width: 100%" align="center" colspan="2">
+                            <table style="height: 100%; width: 100%" cellpadding="0" cellspacing="0">
+                                <tr style="height: 3%; width: 100%; background-color: #00B6F2">
+                                    <td style="height: 3%; width: 100%; background-color: #00B6F2;" align="right" colspan="3">
+                                        <table style="height: 100%; width: 100%;" cellpadding="0" cellspacing="0">
+                                            <tr style="height: 100%; width: 100%;">
+                                                <td style="height: 100%; width: 60%;">
+                                                </td>
+                                                <td align="right" style="height: 100%; width: 15%; font-family: Verdana; font-size: 13px;
+                                                    color: #FFFFFF; font-weight: bold;">
+                                                    User :
+                                                    <asp:Label ID="lblUserName" runat="server"></asp:Label>
+                                                </td>
+                                                <td style="height: 100%; width: 1%;">
+                                                </td>
+                                                <td style="height: 100%; width: 15%; font-family: Verdana; font-size: 13px; color: #FFFFFF; font-weight: bold;">
+                                                    <asp:LinkButton ID="lnk_Reset" runat="server" ForeColor="White" CausesValidation="false">Change Password</asp:LinkButton>
+                                                </td>
+                                                <td style="height: 100%; width: 1%;">
+                                                </td>
+                                                <td style="height: 100%; width: 7%; font-family: Verdana; font-size: 13px; color: #FFFFFF;
+                                                    font-weight: bold;">
+                                                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" ForeColor="White"
+                                                        CausesValidation="false">Sign out</asp:LinkButton>
+                                                </td>
+                                                <td style="height: 100%; width: 1%;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <%--<td height="10px" style="background-color: #00B6F2; border-top-right-radius: 1em">
+                                    </td>--%>
+                                </tr>
+                                <tr style="height: 99%; width: 90%" valign="top">
+                                    <td style="height: 99%; width: 1% ; background-color: #00B6F2;">
+                                    </td>
+                                    <td style="height: 99%; width: 98%" align="left" valign="top">
+                                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </td>
+                                    <td style="height: 99%; width: 1% ; background-color: #00B6F2;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr style="height: 5%; width: 100%" align="center">
+                        <td style="height: 5%; width: 100%" align="center" colspan="2">
+                            <table  style="height: 100%; width: 100%" cellspacing="0" cellpadding="0" border="0">
+                              
+                                <tr style="height: 50%; width: 100%">
+                                    <td style="height: 50%; width: 100%; background: #00B6F2; font-size: 13px; font-family: Arial;
+                                        color: #FFFFFF; border-bottom-left-radius:1em; border-bottom-right-radius: 1em" align="center">
+                                        ©1998-2014 Syntel, Inc. | all rights reserved
+                                    </td>
+                                </tr>
+                                <tr style="height: 50%; width: 100%">
+                              <td style="height: 50%; width: 100%">
+                              
+                              </td>
+                              </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <ajax:ModalPopupExtender ID="modalPopupG" runat="server" PopupControlID="panelChangePasswordm"
+        TargetControlID="lnk_Reset" CancelControlID="btn_Canel" BackgroundCssClass="modalBackgroundm">
+    </ajax:ModalPopupExtender>
+    <asp:Panel ID="panelChangePasswordm" CssClass="modalPopupm" runat="server" ClientIDMode="Static">
+        <table>
+            <tr>
+                <td>
+                    <asp:Label runat="server" Text="User ID:"></asp:Label>
+                </td>
+                <td>
+                    <asp:Label runat="server" ID="lbl_userid" Font-Bold="true" Font-Size="Large" ForeColor="Gray"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="loginlabletext" align="left" width="30%">
+                    Old Password:
+                </td>
+                <td align="left" width="30%">
+                    <asp:TextBox ID="txt_CurrentPassword" runat="server" TextMode="Password"></asp:TextBox>
+                </td>
+                <td width="40%">
+                </td>
+            </tr>
+            <tr>
+                <td class="loginlabletext" align="left" width="30%">
+                    New Password:
+                </td>
+                <td align="left" width="30%">
+                    <asp:TextBox ID="txt_NewPassword" runat="server" TextMode="Password"></asp:TextBox>
+                </td>
+                <td width="40%">
+                </td>
+            </tr>
+            <tr>
+                <td class="loginlabletext" align="left" width="30%">
+                    Confirm Password:
+                </td>
+                <td align="left" width="30%">
+                    <asp:TextBox ID="txt_ConfirmPassword" runat="server" TextMode="Password"></asp:TextBox>
+                </td>
+                <td width="40%">
+                    <asp:CompareValidator ID="CompareValidator_ConfirmPassword" runat="server" ControlToValidate="txt_ConfirmPassword"
+                        ControlToCompare="txt_NewPassword" ErrorMessage="Confirm password is not same as New password"
+                        Operator="Equal" ForeColor="Red"></asp:CompareValidator>
+                </td>
+            </tr>
+            <tr>
+                <td class="loginlabletext" align="center" width="70%" colspan="2">
+                    <asp:Button ID="btn_ChangePword" runat="server" Text="Change Password" Width="140px"
+                        BackColor="#5D5D5D" Font-Bold="True" ForeColor="White" OnClick="btn_ChangePword_Click" />
+                    &nbsp;&nbsp;
+                    <asp:Button ID="btn_Canel" runat="server" Text="Cancel" Width="100px" BackColor="#5D5D5D"
+                        Font-Bold="True" ForeColor="White" CausesValidation="false" />
+                </td>
+                <td>
+                </td>
+            </tr>
+        </table>
+    </asp:Panel>
+    </form>
+</body>
+</html>

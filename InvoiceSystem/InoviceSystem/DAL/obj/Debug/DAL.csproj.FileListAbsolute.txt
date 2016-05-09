@@ -1,0 +1,12 @@
+C:\InvoiceSystem\InoviceSystem\DAL\bin\Debug\DAL.dll.config
+C:\InvoiceSystem\InoviceSystem\DAL\bin\Debug\DAL.dll
+C:\InvoiceSystem\InoviceSystem\DAL\bin\Debug\DAL.pdb
+C:\InvoiceSystem\InoviceSystem\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\InvoiceSystem\InoviceSystem\DAL\obj\Debug\DAL.dll
+C:\InvoiceSystem\InoviceSystem\DAL\obj\Debug\DAL.pdb
+D:\Projects\InvoiceSystem\InoviceSystem\DAL\bin\Debug\DAL.dll.config
+D:\Projects\InvoiceSystem\InoviceSystem\DAL\bin\Debug\DAL.dll
+D:\Projects\InvoiceSystem\InoviceSystem\DAL\bin\Debug\DAL.pdb
+D:\Projects\InvoiceSystem\InoviceSystem\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Projects\InvoiceSystem\InoviceSystem\DAL\obj\Debug\DAL.dll
+D:\Projects\InvoiceSystem\InoviceSystem\DAL\obj\Debug\DAL.pdb

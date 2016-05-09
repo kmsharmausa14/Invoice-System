@@ -1,0 +1,6 @@
+C:\InvoiceSystem\InoviceSystem\DAL\bin\Release\DAL.dll.config
+C:\InvoiceSystem\InoviceSystem\DAL\bin\Release\DAL.dll
+C:\InvoiceSystem\InoviceSystem\DAL\bin\Release\DAL.pdb
+C:\InvoiceSystem\InoviceSystem\DAL\obj\Release\ResolveAssemblyReference.cache
+C:\InvoiceSystem\InoviceSystem\DAL\obj\Release\DAL.dll
+C:\InvoiceSystem\InoviceSystem\DAL\obj\Release\DAL.pdb

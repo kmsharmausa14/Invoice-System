@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GridView>
+	<columns>
+		<boundfield>
+			<Srno>1</Srno>
+			<Invoicenumber>2345</Invoicenumber>
+			<supplierid>7890</supplierid>
+			<pono>1234</pono>
+			<currency>USD</currency>
+			<suppliername>syntel ltd</suppliername>
+			<status>Draft</status>
+		</boundfield>
+	</columns>
+</GridView>
